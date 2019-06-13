@@ -23,12 +23,15 @@ The key's randomart image is:
 |    .oooo.  +o   |
 +----[SHA256]-----+
 ```
-###### If you created key other than id_rsa name add key to ssh agent
+###### If you created key other than id_rsa name, add key to ssh agent
 ```
 ~/.ssh$ ssh-add ./id_rsa_git_nseepana
 Enter passphrase for ./id_rsa_git_nseepana:
 Identity added: ./id_rsa_git_nseepana (./id_rsa_git_nseepana)
 ```
+
+#### Snippets
+
 ###### To copy public key
 ```
 ~/.ssh$ clip < ./id_rsa_git_nseepana.pub
